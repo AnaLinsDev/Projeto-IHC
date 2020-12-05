@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    color: rgb(48, 80, 155);
+    margin: 0;
+    background-color: rgb(191, 214, 233);
+    display: grid;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    grid-template-areas:"nav nav nav" "form form from";
+}
+
+
+
+
+
+form.principal{
+    
+    border: 0;
+    grid-area: form;
+    background-color: white;
+    width: 98%;
+    height: auto;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(16, 7, 63);
+    border-width: 0px;
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.menu-header {
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    height: 22px;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+.menu-header .bt-menu-header {
+    color: #333333;
+    font-family: tahoma;
+    font-size: 10px;
+}
+.icons-top-fontMais {
+    background-position: -110px 0;
+}
+.icons-top {
+    background-image: url(imagens/sprites.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 21px;
+    margin-right: 5px;
+    position: relative;
+    width: 21px;
+}
+.logo {
+    left: 10px;
+    position: absolute;
+    top: 11px;
+}
+.logo a {
+    background: url(imagens/cnp.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 61px;
+    width: 119px;
+}
+div.filtros {
+    display: flex;
+    flex-direction: row;
+}
+fieldset {
+    display: grid;
+    justify-items: start;
+    height: auto;
+    width: 100%;
+    border-width: 0px;
+    background-attachment: fixed;
+}
+fieldset > div{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset > div div input[type="checkbox"]{
+    margin-left: 15px;
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+}
+fieldset div.busca input[type="text"]{
+    margin-top: 15px;
+    width: 150%;
+    height: 30px;
+    font-size: 20px;
+}
+fieldset > div  p{
+    font-weight: bold;
+    align-self: flex-start;
+}
+fieldset > div input[type="button"]{
+    align-items: stretch;
+}
+
+
+
+form div.tipo input[type="button"]{
+    width: 150px;
+    height: 50px;
+    border-radius: 1px;
+      
+}
+
+
+form input[type="button"]{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: rgb(91, 165, 226);
+    box-shadow: 0px 0px 5px rgb(16, 7, 63);
+    justify-self: end;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+div.nacio select {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+div.tipo {
+    margin-top: -60px;
+}
+.header {
+    background-color: whitesmoke;
+    margin: 0px;
+    height: 150px;
+    grid-area: nav;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #01629B;
+    height: 80px;
+}
+.header-content {
+    margin: 0 auto;
+    position: relative;
+}
+.max-width {
+    max-width: 1024px;
+}
+.identity {
+    background-image: url(imagens/lateral.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 66px;
+    width: 273px;
+}
+.identity .combo {
+    background-image: url(imagens/laterall.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 66px;
+    width: 273px;
+}
+.identity .combo a {
+    background-image: url(imagens/mid.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+    color: #1C6AA7;
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    height: 66px;
+    line-height: 17px;
+    padding-top: 13px;
+    text-align: center;
+    text-shadow: 2px 1px 1px #FFFFFF, 2px 1px 1px #FFF;
+    width: 85px;
+    margin: 0 auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+div.filtroConteudo {
+    background-color: rgb(229, 236, 232);
+    border-width: 3px;
+    box-shadow: 0px 0px 5px rgb(10, 74, 104);
+    border-radius: 10px;
+    display: grid;
+    width: 80%;
+    justify-self: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+.identity .combo a img {
+    margin: 0 auto 0 -31px;
+    position: relative;
+    width: 152px;
+}
+div.filtroConteudo > div {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+div.outrospais{
+    position: relative;
+    top: -100px;
+    right: -520px;
+}
