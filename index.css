@@ -20,13 +20,13 @@ form.principal{
     border: 0;
     grid-area: form;
     background-color: white;
-    width: 98%;
+    width: 90%;
     height: auto;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgb(16, 7, 63);
     border-width: 0px;
-    margin-left: 12%;
+    margin-left: 15%;
     margin-right: 15%;
     margin-top: 50px;
     margin-bottom: 20px;
