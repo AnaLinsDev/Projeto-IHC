@@ -1,8 +1,7 @@
-# Projeto-IHC ( 07 / 12 ) Faltam ( 2 ) dias !!
+# Projeto-IHC !!
 
-<h1> protótipo !!! </h1>
 
-- Sem filtro - > Versao sem opçoes de filtro
-- Com filtro - > Com as opções
+Projeto feito no 3º período do curso de SI. Esse é um protótipo da "correção" de tamanho de fonte e responsividade da plataforma Lattes (Busca Simples), ambos problemas foram levantados durante entrevista e com levantamento de requisitod.
 
-- Fiz isso pra a gente n precisar usar JS !!
+- Ana Júlia Oliveira Lins - 20191370002
+- Yohanna  - 20191370003
